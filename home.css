@@ -493,7 +493,7 @@ a:hover {
 
 .course-list {
     list-style: none;
-    padding: 0;
+    padding: 20px;
 }
 
 .course-list li {
