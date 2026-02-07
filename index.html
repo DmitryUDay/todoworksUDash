@@ -4,405 +4,466 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЭВА | салон красоты</title>
+    <meta name="description" content="Салон красоты ЭВА - профессиональное наращивание волос, уход за ногтями и безупречный стиль бровей в Лазаревском">
+    <meta name="keywords" content="салон красоты, наращивание волос, маникюр, ресницы, брови, обучение, Лазаревское">
     <link rel="stylesheet" href="home.css">
     <link rel="icon" type="image/png" href="img/logo.png" style="border-radius: 20px;">
 </head>
 <body>
-    <div class="heroHead">
-        <div class="navigationHead">
-            <a href="index.html" class="logo">ЭВА</a>
-            <div class="burger-menu" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="nav-links" id="navLinks">
-                <a href="index.html" class="selfs">Главная</a>
-                <a href="#sus" class="selfs">Услуги</a>
-                <a href="#Train" class="selfs">Обучение</a>
-                <a href="#about" class="selfs">О нас</a>
-                <a href="#contact" class="btnContact">Контакты</a>
-            </div>
-        </div>
-        <img src="img/bannerHero.png" alt="" width="100%">
-        <div class="bottomContentHero">
-            <h3 align="center" style="color: #673D3A;">Профессиональное наращивание волос, уход за ногтями и безупречный стиль бровей. Доверьте свою красоту экспертам</h3>
-        </div>
-    </div>
-
-
-
-    <div class="uslug" id="sus">
-        <h1 align="center">Услуги</h1>
-        <br>
-        <div class="uslugDoch">
-            <div class="card reveal">
-                <div class="image-box">
-                    <img src="img/us/1.png" alt="Наращивание волос">
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">ЭВА</a>
+                <div class="burger-menu" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <h2>НАРАЩИВАНИЕ ВОЛОС</h2>
-
-                <details class="accordion">
-                    <summary>Наращивание натуральных волос</summary>
-                    <div class="content">
-                    <p>Полное преображение вашего образа! Мы используем 100% натуральные волосы премиум-качества, которые идеально匹配 (match) по цвету и текстуре к вашим собственным. Любая длина и объем. Технология: холодное (ленточное) или горячее (капсульное) наращивание.</p>
-                </details>
-
-                <details class="accordion">
-                    <summary>Коррекция нарощенных волос</summary>
-                    <div class="content">
-                    <p>Регулярная процедура для поддержания безупречного вида нарощенных волос. Мастер аккуратно снимает отросшие пряди у корней и прикрепляет новые, восстанавливая первоначальный объем.</p>
-                </details>
-
-                <details class="accordion">
-                    <summary>Мелирование наращиванием</summary>
-                    <div class="content">
-                    <p>Идеальный способ добавить яркие акценты без повреждения своих волос. Вплетаем цветные пряди любого оттенка для создания эффекта натурального мелирования или смелых цветовых решений.</p>
-                </details>
-
-                <details class="accordion">
-                    <summary>Загущение волос</summary>
-                    <div class="content">
-                    <p>Решение для тонких и редких волос. Точечное добавление прядей у корней по всей голове или в конкретных зонах для создания иллюзии густых, здоровых волос.</p>
-                </details>
-
-                <details class="accordion">
-                    <summary>Снятие нарощенных волос</summary>
-                    <div class="content">
-                    <p>Безопасное и бережное удаление нарощенных прядей с помощью профессиональных средств. Ваши собственные волосы останутся неповрежденными.</p>
-                </details>
-
-                <details class="accordion">
-                    <summary>Капсуляция волос (Ретушь)</summary>
-                    <div class="content">
-                    <p>Быстрая процедура между коррекциями. Добавление небольшого количества прядей в области наибольшего выпадения (обычно у пробора или висков) для поддержания идеальной густоты.</p>
-                </details>
-            </div>
-
-
-
-            <div class="card reveal">
-                <div class="image-box">
-                    <img src="img/us/3.png" alt="Ногти и маникюр">
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="#services" class="nav-link">Услуги</a>
+                    <a href="#training" class="nav-link">Обучение</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#contact" class="btn-contact">Контакты</a>
                 </div>
-                <h2>НОГТИ И МАНИКЮР</h2>
-                <details class="accordion">
-                    <summary>Наращивание ногтей</summary>
-                    <div class="content">
-                    <p>Восстановление длины и формы с помощью геля или акрила. Прочное и эстетичное покрытие, которое позволяет отрастить свои ногти.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Маникюр с покрытием гель-лак</summary>
-                    <div class="content">
-                    <p>Комбинированный маникюр (аппаратный или обрезной) + стойкое покрытие гель-лаком. Идеальный glossy-вид на 3-4 недели.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Маникюр с укреплением гель-лак</summary>
-                    <div class="content">
-                    <p>Для тонких и слоящихся ногтей. После маникюра наносится укрепляющая база или биогель, а затем цветной гель-лак. Ногти становятся прочнее и красивее.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Классический маникюр (обрезной)</summary>
-                    <div class="content">
-                    <p>Уход за кожей рук и ногтями с покрытием обычным лаком.</p>
-                    </div>
-                </details>
-            </div>
-
-
-
-
-
-            <div class="card reveal">
-                <div class="image-box">
-                    <img src="img/us/4.png" alt="Ресницы">
-                </div>
-                <h2>РЕСНИЦЫ</h2>
-                <details class="accordion">
-                    <summary>Наращивание ресниц</summary>
-                    <div class="content">
-                        <p>Классическое, 2D, 3D-объемы, «личное» наращивание. Подберем идеальную длину, изгиб и объем, чтобы подчеркнуть выразительность вашего взгляда. Используем гипоаллергенный клей и шелковые/норковые ресницы.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Коррекция ресниц</summary>
-                    <div class="content">
-                        <p>Рекомендуется каждые 2-3 недели для сохранения безупречного вида. Доклеиваем отпавшие реснички.</p>
-                    </div>
-                </details>
-                <details class="accordion">
-                    <summary>Ламинирование ресниц</summary>
-                    <div class="content">
-                        <p>быстрый салонный уход, который на 6-8 недель завивает, питает и визуально увеличивает ваши натуральные ресницы. Используем профессиональные составы для идеального и безопасного результата. Просыпайтесь с безупречным взглядом!</p>
-                    </div>
-                </details>
-            </div>
-
-
-
-
-            <div class="card reveal">
-                <div class="image-box">
-                    <img src="img/us/2.png" alt="Брови">
-                </div>
-                <h2>БРОВИ</h2>
-
-                <details class="accordion">
-                    <summary>Долговременная укладка бровей (Lamination)</summary>
-                    <div class="content">
-                    <p>Эффект ухоженных, густых и приглаженных бровей на 4-6 недель. Включает укладку, окрашивание и питание.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Окрашивание бровей краской/хной</summary>
-                    <div class="content">
-                    <p>Подчеркиваем естественный контур, придаем бровям насыщенный цвет и аккуратный вид. Хна дает тонирующий и легкий лечебный эффект.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Коррекция бровей (женская)</summary>
-                    <div class="content">
-                    <p>Придание идеальной формы с помощью пинцета и нити с учетом анатомии лица и ваших пожеланий.</p>
-                    </div>
-                </details>
-
-                <details class="accordion">
-                    <summary>Коррекция мужских бровей</summary>
-                    <div class="content">
-                    <p>Аккуратная коррекция формы, удаление волосков между бровями и придание ухоженного, опрятного вида без женственности.</p>
-                    </div>
-                </details>
-            </div>
+            </nav>
         </div>
-        
-    </div>
+    </header>
 
-
-    <a href="#contact" class="zapis">Записаться</a>
-
-    <br>
-    <br>
-
-    <div class="layers-container">
-        <div class="layer layer-1">
-        </div>
-        
-        <div class="layer layer-2">
-        </div>
-        
-        <div class="layer layer-3">
-        </div>
-    </div>
-
-    <div class="nahlest" id="Train">
-        <div class="contentNahlest">
-            <h1 align="center">Обучение</h1>
-            <p align="center" style="color: #643A37; font-size: 25px; margin-left: 10%; margin-right: 10%;">Стань востребованным специалистом в индустрии красоты с салоном "ЭВА"</p>
-            <br>
-
-            <div class="blockHint">
-                <p align="center">Мы делимся своим многолетним опытом! Приглашаем на профессиональные курсы для начинающих и практикующих мастеров</p>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Салон красоты "ЭВА"</h1>
+                <p class="hero-subtitle">Профессиональное наращивание волос, уход за ногтями и безупречный стиль бровей. Доверьте свою красоту экспертам</p>
+                <a href="#contact" class="btn-hero">Записаться онлайн</a>
             </div>
-
-            <br>
-            <br>
-
-            <div class="course-card reval">
-                <div class="course-image">
-                    <img src="img/us/work2.png" alt="Курс наращивания волос">
-                </div>
-                <div class="course-content">
-                    <h2>Курс «Наращивание волос»</h2>
-                    <ul class="course-list">
-                    <li>
-                        <strong>Теория:</strong> материалы, инструменты, типы волос, клей.
-                    </li>
-                    <li>
-                        <strong>Практика:</strong> холодное и горячее наращивание, коррекция, снятие.
-                    </li>
-                    <li>
-                        <strong>Работа с клиентом:</strong> консультация, подбор цвета и объема.
-                    </li>
-                    <li>
-                        Выдача сертификата. Индивидуальный и групповой формат.
-                    </li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="course-card reval">
-                <div class="course-image">
-                    <img src="img/us/work1.png" alt="Курс наращивания волос">
-                </div>
-                <div class="course-content">
-                    <h2>Курс «Наращивание ресниц»</h2>
-                    <ul class="course-list">
-                    <li>
-                        <strong>Теория:</strong> материалы, физиология, безопасность.
-                    </li>
-                    <li>
-                        <strong>Практика:</strong> классическое и объемное наращивание, изгибы, коррекция.
-                    </li>
-                    <li>
-                        Тренды и работа с клиентом
-                    </li>
-                    <li>
-                        Выдача сертификата. Индивидуальный и групповой формат.
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="llayers-container">
-        <div class="llayer llayer-3"></div>
-        <div class="llayer llayer-2"></div>
-        <div class="llayer llayer-1"></div>
-    </div>
-
-    <br>
-    <br>
-
-    <div class="bannerAbout" id="about">
-        <h1 class="bannerH1">Салон красоты "ЭВА"</h1>
-        <p align="center">"ЭВА" - это пространство, где рождается красота и уверенность в себе. Мы Специализируемся на качесвтенном наращивании волос и создании гормноничного образа. Наша миссия - делать вас еще прекраснее с помощью проверенных технологий, лучших материалов и внимательного отношения к каждой детали</p>
-        
-        <br>
-        <br>
-        <h1>Почему мы?</h1>
-        <br>
-        <div class="flexerParrent">
-            <div class="flexer reveal" style="--i: 1;">
-                <img src="img/about1.png" alt="">
-                <p>Наши мастера регулярно повышают квалификацию</p>
-            </div>
-            <div class="flexer reveal" style="--i: 2;">
-                <img src="img/about2.png" alt="">
-                <p>Работаем только с проверенными брендами</p>
-            </div>
-            <div class="flexer reveal" style="--i: 3;">
-                <img src="img/about3.png" alt="">
-                <p>Строгие стандарты стерилизации инструментов</p>
-            </div>
-            <div class="flexer reveal" style="--i: 4;">
-                <img src="img/about4.png" alt="">
-                <p>Мы стремимся к тому, чтобы вы выходили из салона с идеальным образом и отличным настроением</p>
-            </div>
-        </div>
-    </div>
-
-
-
-    <section class="contacts-section" id="contact">
-        <div class="contacts-card">
-            <h2>Контакты</h2>
-
-            <a href="tel:+79897543835" class="contact-btn call-btn">
-                <span class="btn-title">Позвонить!</span>
-                <span class="btn-subtitle">+7 989 754 38 35</span>
-            </a>
-
-            <a href="https://t.me/izapishus_bot?start=f69c72t8m0he" class="contact-btn online-btn">
-                Онлайн-запись
-            </a>
-
-            <div class="social-links">
-                <a href="https://chat.whatsapp.com/J8qDuT7XYbCDptXpkyVlae?mode=gi_t" class="social-icon">
-                    <img src="img/whatsapp.png" alt="WhatsApp">
-                </a>
-                <a href="https://t.me/Yebdye" class="social-icon">
-                    <img src="img/telega.png" alt="Telegram">
-                </a>
+            <div class="hero-image">
+                <!-- Заглушка для изображения - в реальном проекте здесь будет изображение -->
+                <!-- <div class="image-placeholder">Изображение салона красоты</div> -->
+                 <img src="img/bannerHero.png" alt="">
             </div>
         </div>
     </section>
 
-    <h3 align="center">График работы:</h3>
-    <h3 align="center">с 8:00 до 23:00(лето)</h3>
-    <h3 align="center">с 9:00 до 20:00(зима)</h3>
-    <br>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6483d0f0eb572105a0f035c70a0e2859b437cf51efed4f0772fb867a08d7bd8a&amp;width=100%25&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
-    <br>
-    <h3 align="center">Адрес: пос.Лазаревское ул.Павлова 44</h3>
-    <br>
-    <hr style="margin-right: 20px; margin-left: 20px; color: black;">
-    <br>
+    <!-- УСЛУГИ -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                
+                <!-- Карточка 1: Наращивание волос -->
+                <div class="service-card reveal">
+                    <div class="service-image">
+                        <img src="img/us/1.png" alt="">
+                    </div>
+                    <h3 class="service-title">НАРАЩИВАНИЕ ВОЛОС</h3>
+                    
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Наращивание натуральных волос</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Полное преображение вашего образа! Мы используем 100% натуральные волосы премиум-качества, которые идеально match по цвету и текстуре к вашим собственным. Любая длина и объем. Технология: холодное (ленточное) или горячее (капсульное) наращивание.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Коррекция нарощенных волос</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Регулярная процедура для поддержания безупречного вида нарощенных волос. Мастер аккуратно снимает отросшие пряди у корней и прикрепляет новые, восстанавливая первоначальный объем.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Мелирование наращиванием</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Идеальный способ добавить яркие акценты без повреждения своих волос. Вплетаем цветные пряди любого оттенка для создания эффекта натурального мелирования или смелых цветовых решений.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Загущение волос</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Решение для тонких и редких волос. Точечное добавление прядей у корней по всей голове или в конкретных зонах для создания иллюзии густых, здоровых волос.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Снятие нарощенных волос</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Безопасное и бережное удаление нарощенных прядей с помощью профессиональных средств. Ваши собственные волосы останутся неповрежденными.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Капсуляция волос (Ретушь)</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Быстрая процедура между коррекциями. Добавление небольшого количества прядей в области наибольшего выпадения (обычно у пробора или висков) для поддержания идеальной густоты.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Карточка 2: Ногти и маникюр -->
+                <div class="service-card reveal">
+                    <div class="service-image">
+                        <img src="img/us/3.png" alt="">
+                    </div>
+                    <h3 class="service-title">НОГТИ И МАНИКЮР</h3>
+                    
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Наращивание ногтей</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Восстановление длины и формы с помощью геля или акрила. Прочное и эстетичное покрытие, которое позволяет отрастить свои ногти.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Маникюр с покрытием гель-лак</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Комбинированный маникюр (аппаратный или обрезной) + стойкое покрытие гель-лаком. Идеальный glossy-вид на 3-4 недели.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Маникюр с укреплением гель-лак</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Для тонких и слоящихся ногтей. После маникюра наносится укрепляющая база или биогель, а затем цветной гель-лак. Ногти становятся прочнее и красивее.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Классический маникюр (обрезной)</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Уход за кожей рук и ногтями с покрытием обычным лаком.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Карточка 3: Ресницы -->
+                <div class="service-card reveal">
+                    <div class="service-image">
+                        <img src="img/us/2.png" alt="">
+                    </div>
+                    <h3 class="service-title">РЕСНИЦЫ</h3>
+                    
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Наращивание ресниц</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Классическое, 2D, 3D-объемы, «личное» наращивание. Подберем идеальную длину, изгиб и объем, чтобы подчеркнуть выразительность вашего взгляда. Используем гипоаллергенный клей и шелковые/норковые ресницы.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Коррекция ресниц</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Рекомендуется каждые 2-3 недели для сохранения безупречного вида. Доклеиваем отпавшие реснички.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Ламинирование ресниц</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Быстрый салонный уход, который на 6-8 недель завивает, питает и визуально увеличивает ваши натуральные ресницы. Используем профессиональные составы для идеального и безопасного результата. Просыпайтесь с безупречным взглядом!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Карточка 4: Брови -->
+                <div class="service-card reveal">
+                    <div class="service-image">
+                        <img src="img/us/4.png" alt="">
+                    </div>
+                    <h3 class="service-title">БРОВИ</h3>
+                    
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Долговременная укладка бровей (Lamination)</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Эффект ухоженных, густых и приглаженных бровей на 4-6 недель. Включает укладку, окрашивание и питание.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Окрашивание бровей краской/хной</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Подчеркиваем естественный контур, придаем бровям насыщенный цвет и аккуратный вид. Хна дает тонирующий и легкий лечебный эффект.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Коррекция бровей (женская)</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Придание идеальной формы с помощью пинцета и нити с учетом анатомии лица и ваших пожеланий.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                <span>Коррекция мужских бровей</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Аккуратная коррекция формы, удаление волосков между бровями и придание ухоженного, опрятного вида без женственности.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center-btn">
+                <a href="#contact" class="btn-pulse">Записаться сейчас</a>
+            </div>
+        </div>
+    </section>
 
-    <h3 align="center">Сайт защищен авторским правом 2026UDay©</h3>
+    <!-- ОБУЧЕНИЕ -->
+    <section class="training" id="training">
+        <div class="container">
+            <h2 class="section-title">Обучение</h2>
+            <p class="section-subtitle">Стань востребованным специалистом в индустрии красоты с салоном "ЭВА"</p>
+            
+            <div class="training-hint">
+                <p>Мы делимся своим многолетним опытом! Приглашаем на профессиональные курсы для начинающих и практикующих мастеров</p>
+            </div>
+            
+            <div class="course-cards">
+                <div class="course-card reveal">
+                    <div class="course-image">
+                        <img src="img/us/work2.png" alt="">
+                    </div>
+                    <div class="course-content">
+                        <h3>Курс «Наращивание волос»</h3>
+                        <ul class="course-list">
+                            <li>
+                                <strong>Теория:</strong> материалы, инструменты, типы волос, клей.
+                            </li>
+                            <li>
+                                <strong>Практика:</strong> холодное и горячее наращивание, коррекция, снятие.
+                            </li>
+                            <li>
+                                <strong>Работа с клиентом:</strong> консультация, подбор цвета и объема.
+                            </li>
+                            <li>
+                                Выдача сертификата. Индивидуальный и групповой формат.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="course-card reveal">
+                    <div class="course-image">
+                        <img src="img/us/work1.png" alt="">
+                    </div>
+                    <div class="course-content">
+                        <h3>Курс «Наращивание ресниц»</h3>
+                        <ul class="course-list">
+                            <li>
+                                <strong>Теория:</strong> материалы, физиология, безопасность.
+                            </li>
+                            <li>
+                                <strong>Практика:</strong> классическое и объемное наращивание, изгибы, коррекция.
+                            </li>
+                            <li>
+                                Тренды и работа с клиентом
+                            </li>
+                            <li>
+                                Выдача сертификата. Индивидуальный и групповой формат.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- О НАС -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Салон красоты "ЭВА"</h3>
+                    <p>"ЭВА" - это пространство, где рождается красота и уверенность в себе. Мы специализируемся на качественном наращивании волос и создании гармоничного образа. Наша миссия - делать вас еще прекраснее с помощью проверенных технологий, лучших материалов и внимательного отношения к каждой детали</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- ПОЧЕМУ МЫ -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Почему мы?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card reveal" style="--i: 1;">
+                    <div class="course-image"><img src="img/about1.png" alt=""></div>
+                    <h3 class="benefit-title">Повышение квалификации</h3>
+                    <p class="benefit-text">Наши мастера регулярно повышают квалификацию</p>
+                </div>
+                <div class="benefit-card reveal" style="--i: 2;">
+                    <div class="course-image"><img src="img/about2.png" alt=""></div>
+                    <h3 class="benefit-title">Качественные материалы</h3>
+                    <p class="benefit-text">Работаем только с проверенными брендами</p>
+                </div>
+                
+                <div class="benefit-card reveal" style="--i: 3;">
+                    <div class="course-image"><img src="img/about3.png" alt=""></div>
+                    <h3 class="benefit-title">Стерильность</h3>
+                    <p class="benefit-text">Строгие стандарты стерилизации инструментов</p>
+                </div>
+                
+                <div class="benefit-card reveal" style="--i: 4;">
+                    <div class="course-image"><img src="img/about4.png" alt=""></div>
+                    <h3 class="benefit-title">Комфорт и настроение</h3>
+                    <p class="benefit-text">Мы стремимся к тому, чтобы вы выходили из салона с идеальным образом и отличным настроением</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- КОНТАКТЫ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Свяжитесь с нами</h3>
+                        
+                        <a href="tel:+79897543835" class="contact-btn call-btn">
+                            <span class="btn-title">Позвонить!</span>
+                            <span class="btn-subtitle">+7 989 754 38 35</span>
+                        </a>
 
+                        <a href="https://t.me/izapishus_bot?start=f69c72t8m0he" class="contact-btn online-btn">
+                            Онлайн-запись
+                        </a>
 
+                        <div class="social-links">
+                            <a href="https://chat.whatsapp.com/J8qDuT7XYbCDptXpkyVlae?mode=gi_t" class="social-icon" target="_blank" rel="noopener noreferrer">
+                                WhatsApp
+                            </a>
+                            <a href="https://t.me/Yebdye" class="social-icon" target="_blank" rel="noopener noreferrer">
+                                Telegram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-details">
+                    <div class="work-hours">
+                        <h3>График работы:</h3>
+                        <p>с 8:00 до 23:00 (лето)</p>
+                        <p>с 9:00 до 20:00 (зима)</p>
+                    </div>
+                    
+                    <div class="address">
+                        <h3>Адрес:</h3>
+                        <p>пос.Лазаревское ул.Павлова 44</p>
+                    </div>
+                    
+                    <!-- Карта -->
+                    <div class="map-container">
+                        <h3>Мы находимся здесь:</h3>
+                        <div class="map-placeholder">
+                            <!-- В реальном проекте здесь будет iframe с картой -->
+                            <p>пос.Лазаревское ул.Павлова 44</p>
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6483d0f0eb572105a0f035c70a0e2859b437cf51efed4f0772fb867a08d7bd8a&amp;width=100%25&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">ЭВА</a>
+                    <p>Салон красоты в Лазаревском</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="#services">Услуги</a>
+                    <a href="#training">Обучение</a>
+                    <a href="#about">О нас</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><a href="tel:+79897543835">+7 989 754 38 35</a></p>
+                    <p>пос.Лазаревское ул.Павлова 44</p>
+                    <div class="footer-social">
+                        <a href="https://chat.whatsapp.com/J8qDuT7XYbCDptXpkyVlae?mode=gi_t" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                        <a href="https://t.me/Yebdye" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <hr>
+                <p>Сайт защищен авторским правом 2026UDay©</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
- 
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const blocks = document.querySelectorAll('.reveal');
-    
-    // Пресеты анимаций, чтобы не мусорить в HTML
-    const animations = [
-        { transform: 'translateX(-40px)' }, // слева
-        { transform: 'translateX(40px)' },  // справа
-        { transform: 'translateY(40px)' },  // снизу
-        { transform: 'scale(0.95)' }        // просто появление
-    ];
-
-    // Инициализация: раскидываем начальные позиции программно
-    blocks.forEach((block, index) => {
-        const anim = animations[index % animations.length];
-        block.style.transform = anim.transform;
-    });
-
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -20px 0px' // Срабатывает чуть раньше появления
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                // Используем планировщик задач браузера
-                window.requestAnimationFrame(() => {
-                    entry.target.classList.add('active');
-                });
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-
-    blocks.forEach(block => observer.observe(block));
-});
-</script>
-
-
-<script>
-    const burger = document.getElementById('burger');
-    const navLinks = document.getElementById('navLinks');
-
-    burger.addEventListener('click', () => {
-        // Переключаем класс для анимации полосок в крестик
-        burger.classList.toggle('open');
-        // Переключаем видимость меню
-        navLinks.classList.toggle('active');
-    });
-
-    // Закрываем меню при клике на любую ссылку (чтобы не перекрывало контент после перехода)
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            burger.classList.remove('open');
-        });
-    });
-</script>
