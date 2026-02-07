@@ -155,6 +155,8 @@ a:hover {
     left: 0;
     width: 100%;
     z-index: 1000;
+    padding-left: 10px;
+    padding-right: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -339,16 +341,16 @@ a:hover {
     object-fit: cover; /* Обрезаем чтобы заполнить квадрат */
     object-position: center; /* Центрируем обрезку */
     border-radius: 10px;
-    box-shadow: 0 0 20px 5px rgba(255, 105, 180, 0.3);
     transition: all 0.3s ease;
+    box-shadow: 
+        /* Мощный внутренний свет (заполняем трубку изнутри) */
+        inset 0 0 15px #fdb3db, /* Светло-розовый центр для объема */
+        inset 0 0 30px #F360B7, /* Основной цвет внутри */
+        
+        /* Внешнее свечение, которое идет плотно к широкой границе */
+        0 0 10px #F360B7, 
+        0 0 25px rgba(243, 96, 183, 0.7);
 }
-
-/* Усиление тени при наведении */
-.service-image img:hover {
-    box-shadow: 0 0 30px 10px rgba(255, 105, 180, 0.5);
-    transform: scale(1.05); /* Легкое увеличение при наведении */
-}
-
 
 
 
@@ -471,7 +473,14 @@ a:hover {
     object-fit: cover; /* Заполнение с обрезкой */
     object-position: center; /* Центрирование обрезки */
     border-radius: 15px;
-    box-shadow: 0 0 20px 5px rgba(255, 105, 180, 0.3);
+    box-shadow: 
+        /* Мощный внутренний свет (заполняем трубку изнутри) */
+        inset 0 0 15px #fdb3db, /* Светло-розовый центр для объема */
+        inset 0 0 30px #F360B7, /* Основной цвет внутри */
+        
+        /* Внешнее свечение, которое идет плотно к широкой границе */
+        0 0 10px #F360B7, 
+        0 0 25px rgba(243, 96, 183, 0.7);
     transition: all 0.3s ease;
 }
 
@@ -919,7 +928,16 @@ a:hover {
 .course-image img,
 .hero-image img,
 .flexer img {
-    box-shadow: 0 0 20px 5px rgba(255, 105, 180, 0.3);
+    box-shadow: 
+        /* Мощный внутренний свет (заполняем трубку изнутри) */
+        inset 0 0 15px #fdb3db, /* Светло-розовый центр для объема */
+        inset 0 0 30px #F360B7, /* Основной цвет внутри */
+        
+        /* Внешнее свечение, которое идет плотно к широкой границе */
+        0 0 10px #F360B7, 
+        0 0 25px rgba(243, 96, 183, 0.7);
+
+
     transition: box-shadow 0.3s ease;
     display: block; /* Важно для корректного отображения тени */
     position: relative; /* Для z-index если нужно */
@@ -945,6 +963,13 @@ a:hover {
 /* Если есть другие контейнеры с изображениями */
 .image-box img,
 .course-image img {
-    box-shadow: 0 0 20px 5px rgba(255, 105, 180, 0.3);
+    box-shadow: 
+        /* Мощный внутренний свет (заполняем трубку изнутри) */
+        inset 0 0 15px #fdb3db, /* Светло-розовый центр для объема */
+        inset 0 0 30px #F360B7, /* Основной цвет внутри */
+        
+        /* Внешнее свечение, которое идет плотно к широкой границе */
+        0 0 10px #F360B7, 
+        0 0 25px rgba(243, 96, 183, 0.7);
     transition: box-shadow 0.3s ease;
 }
